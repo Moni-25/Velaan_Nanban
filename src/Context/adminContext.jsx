@@ -11,7 +11,7 @@ export default function AdminContextProvider({children})
     async function getAdmin()
     {
         try{
-            const res = await fetch("http://localhost:5000/api/admin");
+            const res = await fetch("https://velaan-nanban-database.onrender.com/api/admin");
             const result = await res.json();
             setAdminData(result.data);
         }

@@ -111,7 +111,7 @@ export default function PeopleSignUp()
           }
         if(formData.peopleUsername !== "already" && formData.email !== "already" && formData.phone !== "already" && len.length === 10)
         {
-            fetch("http://localhost:5000/api/people/create",{
+            fetch("https://velaan-nanban-database.onrender.com/api/people/create",{
             method: "POST",
             headers: {
                 "Content-Type": "application/json",

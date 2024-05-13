@@ -11,7 +11,7 @@ export default function PeopleContextProvider({children})
     async function getPeople()
     {
         try{
-            const res = await fetch("http://localhost:5000/api/people");
+            const res = await fetch("https://velaan-nanban-database.onrender.com/api/people");
             const result = await res.json();
             setPeopleData(result.data);
         }
