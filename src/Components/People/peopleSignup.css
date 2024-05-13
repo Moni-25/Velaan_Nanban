@@ -1,0 +1,15 @@
+.people-login {
+    background-color: #e6e6ff;
+    color: black;
+    font-weight: bold;
+    border: 2px solid #18bd08;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 38%;
+    padding: 20px;
+    text-align: center;
+}
